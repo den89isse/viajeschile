@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    // color al menu despues de la galeria
+    // color al menu despues de la galeria.
     $(window).on("scroll", function () {
         if ($(window).scrollTop() > $("#quienes-somos").offset().top - 50) {
             $("nav").addClass("color-fondo");
